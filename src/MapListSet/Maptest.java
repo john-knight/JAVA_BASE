@@ -26,7 +26,7 @@ public class Maptest {
         for(String key : map.keySet()){
             System.out.println(map.get(key));
         }
-        //    二：使用entryset便利
+        //    二：使用entryset便利；推荐使用此种
         for (Map.Entry<String,String> entry:map1.entrySet()){
             System.out.println(entry.getKey());
             System.out.println(entry.getValue());
