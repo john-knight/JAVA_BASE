@@ -1,8 +1,7 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class Main {
-
+public class Maptest {
     public static  void main(String[] args){
 //       正常使用MAP的方法
         Map<String,String> map=new HashMap();
