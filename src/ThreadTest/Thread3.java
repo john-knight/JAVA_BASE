@@ -19,5 +19,4 @@ public class Thread3  implements Callable<String> {
       Thread thread3 =new Thread(futureTask);
       thread3.start();
   }
-
 }

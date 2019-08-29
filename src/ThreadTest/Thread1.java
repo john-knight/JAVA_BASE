@@ -10,9 +10,6 @@ public class Thread1 extends  Thread{
     }
     public static void main(String[] args){
         Thread1 thread1=new Thread1();
-        Thread1 thread2=new Thread1();
-        Thread1 thread3=new Thread1();
-        Thread1 thread4=new Thread1();
-        thread1.start();thread2.start();thread3.start();thread4.start();
+        thread1.start();
     }
 }

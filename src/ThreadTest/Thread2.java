@@ -1,4 +1,5 @@
 package ThreadTest;
+
 //通过实现runable接口来实现多线程
 //此种方式可以避免java单继承的局限推荐使用这种方式
 public class Thread2 implements Runnable{
