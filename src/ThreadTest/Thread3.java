@@ -7,7 +7,7 @@ import java.util.concurrent.FutureTask;
 //需要注意，返回值类型可用泛型实现
 public class Thread3  implements Callable<String> {
    public String call(){
-           for(int i=0;i<10;i++) {
+           for(int i=0;i<100000;i++) {
                System.out.println(i);
            }
        return "ok";
