@@ -1,29 +1,15 @@
-import java.util.List;
-import java.util.Vector;
+
 
 //Java一些基础知识得剖析与理解
 public class Main {
 
-    public int solution (int n) {
-        int sum=0;
-        Vector<Integer> vector = new Vector<Integer>();
-        String s="dadasda";
-        Integer.valueOf(s);
-        for (int i = 1;i<=n;i++){
-            int j=i;
-            while (j-->0){
-                vector.add(i);
-            }
-        }
-        for (int i=0;i<n;i++){
-            sum+=vector.get(i);
-        }
-        return sum;
-
-    }
-
     public static void main(String[] args) {
         System.out.print(System.getProperty("java.class.path"));
+    }
+
+
+    public String test(){
+        return "test --cjl";
     }
 
 
