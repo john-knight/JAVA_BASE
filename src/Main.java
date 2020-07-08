@@ -2,15 +2,12 @@
 
 //Java一些基础知识得剖析与理解
 public class Main {
-
     public static void main(String[] args) {
         System.out.print(System.getProperty("java.class.path"));
     }
-
-
     public String test(){
 
-        String testdaw = "hello world";
+        String testgit = "hello world";
         return "test --cjl";
     }
 
