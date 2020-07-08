@@ -16,6 +16,12 @@ public class Main {
         Arrays.sort(list.toArray());
         count++;
         System.out.println(count);
+
+    }
+
+
+    public String test() {
+     return  "test";
     }
 
     public static void main(String[] args) {
